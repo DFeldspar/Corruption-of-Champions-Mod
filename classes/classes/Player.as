@@ -989,6 +989,8 @@ use namespace kGAMECLASS;
 				demonCounter++;
 			if (faceType == 0 && cor > 50)
 				demonCounter++;
+			if (tongueType == 2)
+				demonCounter++;
 			if (lowerBody == 5 || lowerBody == 6)
 				demonCounter++;
 			if (countCocksOfType(CockTypesEnum.DEMON) > 0)
